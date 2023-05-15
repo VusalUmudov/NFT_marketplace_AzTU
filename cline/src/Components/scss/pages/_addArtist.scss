@@ -1,0 +1,63 @@
+.add_artist_container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    padding-bottom: 20px;
+
+    h1 {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 120%;
+        color: white;
+        text-align: center;
+    }
+
+    .add_artist_form {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        input {
+            margin-top: 15px;
+            padding: 15px 30px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            font-size: 17px;
+        }
+
+        span {
+            color: rgb(248, 19, 19);
+            margin-top: 8px;
+        }
+
+        button {
+            width: 500px;
+            height: 60px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            background: #A259FF;
+            border-radius: 20px;
+            padding: 0px 29px;
+            margin: 0 auto;
+            margin-top: 20px !important;
+            margin-bottom: 10px;
+            gap: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: #FFFFFF;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(0.95);
+
+            }
+        }
+    }
+}

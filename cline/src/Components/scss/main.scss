@@ -1,0 +1,10 @@
+@import './base/base','./base/reset','./base/typography';
+
+
+@import './utils/variables','./utils/mixin','./utils/extend';
+
+@import './layout/navigation' , './layout/footer';
+
+
+// burda ise sira ile home ve artist scss import olunacaq
+@import './pages/home', './pages/artist'

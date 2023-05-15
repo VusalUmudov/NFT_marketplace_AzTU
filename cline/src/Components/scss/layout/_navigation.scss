@@ -1,0 +1,102 @@
+nav {
+    
+    background-color: #2B2B2B !important;
+    padding: 20px 50px;
+
+    .nav__container {
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        
+        .nav_right_firstnone{
+            display: none;
+        }
+        // @include for-size (tablet){
+            
+        //     .nav__right{
+        //         display: none;
+        //     }
+        //     .nav_right_firstnone{
+        //         display: block;
+        //     }
+        // }
+        // @include for-size (phone){
+        //     .nav__left {
+        //         svg{
+        //             margin-left: -60px;
+        //             margin-right: 50px;
+        //         }
+        //     }
+        // }
+        .nav__right {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+
+                li {
+                    padding: 0px 20px;
+                    gap: 12px;
+                    margin-right: 10px;
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(0.95);
+                        
+                    }
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+                
+            }
+
+            .nav__btn {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                border: none;
+                background: #A259FF;
+                border-radius: 20px;
+                padding: 0px 29px;
+                gap: 12px;
+                width: 152px;
+                height: 60px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                text-align: center;
+                color: #FFFFFF;
+                transition: all 0.3s ease;
+                &:hover{
+                    transform: scale(0.95);
+                    
+                }
+
+            }
+        }
+        // @include for-size(tablet) {
+        //     .nav__right{
+        //         ul{
+
+        //             display: none;
+        //         }
+        //         .nav__btn{
+        //             display: none;
+        //         }                
+        //     }
+        //     .nav_right_firstnone{
+        //         display: flex;
+        //     }
+        
+        // }
+    }
+}
